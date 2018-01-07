@@ -159,8 +159,8 @@
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>C:\Users\Admin\Documents\ENJMIN\projet sc\Bot-SC-2\SC2API_Binary_vs2017\SC2API_Binary_vs2017\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Users\Admin\Documents\ENJMIN\projet sc\Bot-SC-2\SC2API_Binary_vs2017\SC2API_Binary_vs2017\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\..\SC2API_Binary_vs2017\SC2API_Binary_vs2017\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)..\..\..\SC2API_Binary_vs2017\SC2API_Binary_vs2017\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LibraryPath>C:\Libraries\BWAPI_420\lib;$(LibraryPath)</LibraryPath>
